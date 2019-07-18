@@ -15,18 +15,18 @@ body {
   font-size:14px;
 }
 .panel_cover_collapsed {
-  width: 30%;
-  max-width: 700px;
+  width: 25%;
+  max-width: none /*700px;*/
 }
 .panel_cover {
 	display: block;
 	position: fixed;
 	z-index: 900;
-	width: 30%;
+	width: 25%;
 	max-width: none;
 	height: 100%;
 	background-size: cover;
-	background-color: rgba(156, 0, 0, 1) /*rgba(37, 104, 163, 0.6)*/;
+	background-color: #800000/*rgba(156, 0, 0, 1); rgba(37, 104, 163, 0.6)*/;
   /*background-image: -webkit-linear-gradient(-410deg, rgba(37, 104, 163, 0.6) 20%, rgba(18, 51, 80, 0.8));
   background-image: linear-gradient(140deg,rgba(37, 104, 163, 0.6) 20%, rgba(18, 51, 80, 0.8));*/
 }
@@ -43,13 +43,22 @@ body {
 }
 .panel_main_inner {
   display: table-cell;
-  vertical-align: middle;
-  position: relative;
+  /*vertical-align: middle;*/
+  /*position: relative; */
   z-index: 800;
-  padding: 0 60px;
+  padding: 20% 10%;/*0 60px;*/
 }
 .panel_cover_photo {
   margin-bottom: 1em;
+	width:80%;
+	max-width:170px;
+	height:auto;
+}
+.panel_cover_name_photo {
+  margin-bottom: 1em;
+	width:60%;
+	max-width:80px;
+	height:auto;
 }
 .panel_title {
 	margin: 0 0 5px 0;
@@ -92,8 +101,8 @@ p {
 }
 .content_wrapper {
 	z-index: 800;
-	width: 70%;
-	margin-left: 30%;
+	width: 75%;
+	margin-left: 25%;
 }
 .content_wrapper_inner {
 	margin-top: 0;
@@ -164,7 +173,7 @@ p {
 	-moz-border-radius: 25px;
 	border-radius: 25px;
 	color:#fff;
-	border: 1px solid #045fa8;
+	border: 0px solid #045fa8; /*no boarder*/
 }
 .tabtitle .active:hover {
 	background-color: #9c0000/*#426ca9*/;	
