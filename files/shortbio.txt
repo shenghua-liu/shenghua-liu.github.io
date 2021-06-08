@@ -1,0 +1,8 @@
+Shenghua Liu is an Associate Professor at the Institute of Computing
+Technology, Chinese Academy of Sciences. He received his Ph.D. degree from the
+Computer Science and Technology Department, Tsinghua University. He once
+visited at the University of California, Los Angeles and a visiting scholar at
+Carnegie Mellon University respectively. His current research interests are
+designing intelligent and automated algorithms for big data mining problems,
+related to big graphs and series. Two related publications have been recognized as
+``best paper'' award and candidate.

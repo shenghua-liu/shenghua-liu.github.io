@@ -244,7 +244,8 @@ p
 	text-decoration: none;
 }
 .userContent a:hover {
-	color: #426ca9;
+	/*color: #426ca9;*/
+	color: green;
 	text-decoration: underline;
 }
 .year_style {
@@ -293,4 +294,14 @@ p
  list-style-type: square;
  background-color:#f0f0f0; 
  font-size:14px;
+}
+
+a.cblink {
+	color: white
+}
+
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
 }
