@@ -1,38 +1,704 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{aclmain = {In Proc. of the Association for Computational Linguistics, ACL Main}}
+@string{aclfind = {In Proc. of the Association for Computational Linguistics, ACL Findings}}
+@string{iclr = {International Conference on Learning Representations, ICLR}}
+@string{nips = {Advances in Neural Information Processing Systems, NIPS}}
+@string{coling = {In Proc. of the International Conference on Computational Linguistics, Coling}}
+@string{emnlpmain = {In Proc. of the Empirical Methods in Natural Language Processing, EMNLP Main}}
+@string{emnlpfinding = {In Proc. of the Empirical Methods in Natural Language Processing, EMNLP Findings}}
+@string{tkde = {IEEE Transactions on Knowledge and Data Engineering, TKDE}}
+@string{tkdd = {ACM Transactions on Knowledge Discovery from Data, TKDD}}
+@string{sdm = {In Proc. of the SIAM International Conference on Data Mining, SDM}}
+@string{aaai = {In Proc. of the Association for the Advancement of Artificial Intelligence, AAAI}}
+@string{ijcai = {In Proc. of the International Joint Conference on Artificial Intelligence, IJCAI}}
+@string{icmla = {In Proc. of the International Conference on Machine Learning and Applications, ICMLA}}
+@string{tsc = {ACM Transactions on Social Computing}}
+@string{ecmlpkdd = {In Proc. of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, ECML-PKDD}}
+@string{pakdd = {In Proc. of the Pacific-Asia Conference on Knowledge Discovery and Data Mining, PAKDD}}
+@string{wwwcompanion = {In Proc. of the International World Wide Web Conference, WWW Companion}}
+@string{cikm = {In Proc. of the ACM International Conference on Information and Knowledge Management, CIKM}}
+@string{cikmshort = {In Proc. of the ACM International Conference on Information and Knowledge Management, CIKM Short}}
+@string{dac = {In Proc. of the Design Automation Conference, DAC}}
+@string{aspdac = {In Proc. of the Asia and South Pacific Design Automation Conference, ASP-DAC}}
+@string{todaes = {IEEE Transactions on Design Automation of Electronic Systems, TODAES}}
+@string{tcad = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, TCAD}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{bi2025deck,
+  author = {Baolong Bi and Shenghua Liu and Lingrui Mei and Yiwei Wang and Junfeng Fang and Pengliang Ji and Xueqi Cheng},
+  title = {Decoding by Contrasting Knowledge: Enhancing Large Language Model Confidence on Edited Facts},
+  booktitle = aclmain,
+  year = {2025},
+  pdf = {papers/acl2025main-deck-arxiv.pdf}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{ge2025graphorder,
+  author = {Yuyao Ge and Shenghua Liu and Baolong Bi and Yiwei Wang and Lingrui Mei and Wenjie Feng and Lizhe Chen and Xueqi Cheng},
+  title = {Can Graph Descriptive Order Affect Solving Graph Problems with LLMs?},
+  booktitle = aclmain,
+  year = {2025},
+  pdf = {papers/acl2025main-graph-descriptive-order-arxiv.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{bi2025factuality,
+  author = {Baolong Bi and Shenghua Liu and Yiwei Wang and Lingrui Mei and Junfeng Fang and Hongcheng Gao and Shiyu Ni and Xueqi Cheng},
+  title = {Is Factuality Enhancement a Free Lunch For LLMs? Better Factuality Can Lead to Worse Context-Faithfulness},
+  booktitle = iclr,
+  year = {2025},
+  pdf = {papers/iclr2025-is_factuality_enhancement_a_free_lunch.pdf}
 }
 
+@inproceedings{mei2025coling,
+  author = {Lingrui Mei and Shenghua Liu and Yiwei Wang and Baolong Bi and Jiayi Mao and Xueqi Cheng},
+  title = {"Not Aligned" is Not "Malicious": Being Careful about Hallucinations of Large Language Models' Jailbreak},
+  booktitle = coling,
+  year = {2025},
+  pages = {2144--2162},
+  pdf = {papers/coling2025-notaligned-notmalicious-main.pdf}
+}
+
+@inproceedings{mei2024slang,
+  author = {Lingrui Mei and Shenghua Liu and Yiwei Wang and Baolong Bi and Xueqi Cheng},
+  title = {SLANG: New Concept Comprehension of Large Language Models},
+  booktitle = emnlpmain,
+  year = {2024},
+  pages = {12559--12575},
+  pdf = {papers/emnlp2024-slang.pdf}
+}
+
+@inproceedings{bi2024atbiaser,
+  author = {Baolong Bi and Shenghua Liu and Yiwei Wang and Lingrui Mei and Hongcheng Gao and Yilong Xu and Xueqi Cheng},
+  title = {Adaptive Token Biaser: Knowledge Editing via Biasing Key Entities},
+  booktitle = emnlpfinding,
+  year = {2024},
+  pages = {11071--11083},
+  pdf = {papers/emnlpfindings2024-atbiaser.pdf}
+}
+
+@inproceedings{bi2024lpnl,
+  author = {Baolong Bi and Shenghua Liu and Yiwei Wang and Lingrui Mei and Xueqi Cheng},
+  title = {LPNL: Scalable Link Prediction with Large Language Models},
+  booktitle = emnlpfinding,
+  year = {2024},
+  pages = {3615--3625},
+  pdf = {papers/aclfindings2024-lpnl.pdf}
+}
+
+@article{feng2024induen,
+  author = {Wenjie Feng and Li Wang and Bryan Hooi and See-Kiong Ng and Shenghua Liu},
+  title = {Interrelated Dense Pattern Detection in Multilayer Networks},
+  journal = tkde,
+  year = {2024},
+  volume = {36},
+  month = {Nov.},
+  pages = {6462--6476},
+  pdf = {papers/tkde2024-INDUEN.pdf}
+}
+
+@article{zhou2024nepreserving,
+  author = {Houquan Zhou and Shenghua Liu and Huawei Shen and Xueqi Cheng},
+  title = {Node Embedding Preserving Graph Summarization},
+  journal = tkdd,
+  year = {2024},
+  volume = {18},
+  number = {6},
+  pages = {1--19},
+  pdf = {papers/tkdd2024-NE_preserving_GS.pdf}
+}
+
+@inproceedings{zhou2024spectral,
+  author = {Houquan Zhou and Shenghua Liu and Huawei Shen and Xueqi Cheng},
+  title = {Graph Summarization for Preserving Spectral Characteristics},
+  booktitle = sdm,
+  year = {2024},
+  pages = {271--279},
+  pdf = {papers/sdm2024-graphsum_spectral.pdf}
+}
+
+@article{feng2024spectraldense,
+  author = {Wenjie Feng and Shenghua Liu and Danai Koutra and Xueqi Cheng},
+  title = {Unified Dense Subgraph Detection: Fast Spectral Theory based Algorithms},
+  journal = tkde,
+  year = {2024},
+  volume = {36},
+  number = {3},
+  pages = {1356--1370},
+  note = {Published March 2024 (pub date: 17 July 2023)},
+  pdf = {papers/tkde2024-spectral_dense.pdf}
+}
+
+@inproceedings{zhou2023gelsum,
+  author = {Houquan Zhou and Shenghua Liu and Danai Koutra and Huawei Shen and Xueqi Cheng},
+  title = {A Provable Framework of Learning Graph Embeddings via Summarization},
+  booktitle = aaai,
+  year = {2023},
+  pdf = {papers/aaai2023-gelsum.pdf}
+}
+
+@article{feng2023hierarchydb,
+  author = {Wenjie Feng and Shenghua Liu and Xueqi Cheng},
+  title = {Hierarchical Dense Pattern Detection in Tensor},
+  journal = tkdd,
+  year = {2023},
+  volume = {17},
+  number = {6},
+  pages = {1--29},
+  pdf = {papers/tkdd2023-hierarchyDB.pdf}
+}
+
+@inproceedings{tong2023w3detector,
+  author = {Shengbo Tong and Yuyang Xie and Shenghua Liu and Wenjian Yu and Jixuan Cai},
+  title = {W3Detector: Detecting fraudulent online sellers based on temporal and spacial information},
+  booktitle = icmla,
+  year = {2023}
+}
+
+@inproceedings{sun2022monlad,
+  author = {Xiaobing Sun and Wenjie Feng and Shenghua Liu and Yuyang Xie and Siddharth Bhatia and Bryan Hooi and Wenhan Wang and Xueqi Cheng},
+  title = {MonLAD: Money Laundering Agents Detection in Transaction Streams},
+  booktitle = wsdm,
+  year = {2022},
+  pages = {976--986},
+  pdf = {papers/wsdm2022-monlad.pdf},
+  code = {https://github.com/BGT-M/MonLAD}
+}
+
+@article{liu2023beatgan,
+  author = {Shenghua Liu and Bin Zhou and Quan Ding and Bryan Hooi and Zhengbo Zhang and Huawei Shen and Xueqi Cheng},
+  title = {Time Series Anomaly Detection with Adversarial Reconstruction Networks},
+  journal = tkde,
+  year = {2023},
+  volume = {35},
+  number = {4},
+  pages = {4293--4306},
+  pdf = {papers/tkde2023-timeseries-beatgan.pdf},
+  code = {https://github.com/BGT-M/spartan2-tutorials/blob/master/BeatGAN.ipynb}
+}
+
+@article{cheng2021finrisk,
+  author = {Xueqi Cheng and Shenghua Liu and Xiaoqian Sun and Zidong Wang and Houquan Zhou and Yu Shao and Huawei Shen},
+  title = {Combating emerging financial risks in the big data era: A perspective review},
+  journal = {Fundamental Research},
+  year = {2021},
+  volume = {1},
+  number = {5},
+  pages = {595--606},
+  url = {http://www.ict.cas.cn/xwgg/jssxw/202201/t20220107_6337419.html}
+}
+
+@inproceedings{sun2021cubeflow,
+  author = {Xiaobing Sun and Jiabao Zhang and Qiming Zhao and Shenghua Liu and Jinglei Chen and Ruoyu Zhuang and Huawei Shen and Xueqi Cheng},
+  title = {CubeFlow: Money Laundering Detection with Coupled Tensors},
+  booktitle = pakdd,
+  year = {2021},
+  pages = {78--90},
+  pdf = {papers/cubeflow-pakdd2021.pdf},
+  code = {https://github.com/BGT-M/spartan2-tutorials/blob/master/CubeFlow.ipynb}
+}
+
+@inproceedings{zhang2021augsplicing,
+  author = {Jiabao Zhang and Shenghua Liu and Wenting Hou and Siddharth Bhatia and Huawei Shen and Wenjian Yu and Xueqi Cheng},
+  title = {AugSplicing: Synchronized Behavior Detection in Streaming Tensors},
+  booktitle = aaai,
+  year = {2021},
+  note = {Acceptance rate: 21\%},
+  url = {https://arxiv.org/abs/2012.02006}
+}
+
+@inproceedings{zhou2021dpgs,
+  author = {Houquan Zhou and Shenghua Liu and Kyuhan Lee and Kijung Shin and Huawei Shen and Xueqi Cheng},
+  title = {DPGS: Degree-Preserving Graph Summarization},
+  booktitle = sdm,
+  year = {2021},
+  pages = {280--288},
+  pdf = {papers/sdm2021-dpgs.pdf},
+  appendix = {papers/sdm2021-dpgs-appendix.pdf},
+  code = {https://github.com/BGT-M/spartan2-tutorials/blob/master/DPGS.ipynb},
+  url = {https://arxiv.org/abs/2010.09175}
+}
+
+@inproceedings{wang2020provablerobust,
+  author = {Yiwei Wang and Shenghua Liu and Minji Yoon and Hemank Lamba and Wei Wang and Christos Faloutsos and Bryan Hooi},
+  title = {Provably Robust Node Classification via Low-Pass Message Passing},
+  booktitle = {IEEE International Conference on Data Mining (ICDM)},
+  year = {2020},
+  address = {Sorrento, Italy},
+  pdf = {papers/icdm2020-provablerobust.pdf},
+  slides = {files/icdm2020-provablerobust-slides.pdf}
+}
+
+@inproceedings{feng2020specgreedy,
+  author = {Wenjie Feng and Shenghua Liu and Danai Koutra and Huawei Shen and Xueqi Cheng},
+  title = {SpecGreedy: Unified Dense Subgraph Detection},
+  booktitle = ecmlpkdd,
+  year = {2020},
+  address = {Belgium},
+  note = {<span style="color:red;"><strong>Best student DM paper award</strong></span>.
+  Acceptance rate: 19\%. Verified on 40 real-world networks, and a 1.47-billion-edge graph },
+  pdf = {papers/pkdd2020_specgreedy.pdf},
+  code = {https://github.com/wenchieh/specgreedy}
+}
+
+@article{feng2021eaglemine,
+  author = {Wenjie Feng and Shenghua Liu and Christos Faloutsos and Bryan Hooi and Huawei Shen and Xueqi Cheng},
+  title = {EagleMine: Vision-guided Micro-clusters recognition and collective anomaly detection},
+  journal = {Future Generation Computer Systems},
+  year = {2021},
+  volume = {115},
+  pages = {236--250},
+  pdf = {papers/FGCS2021-eaglemine.pdf}
+}
+
+@inproceedings{li2020flowscope,
+  author = {Xiangfeng Li and Shenghua Liu and Zifeng Li and Xiaotian Han and Chuan Shi and Bryan Hooi and He Huang and Xueqi Cheng},
+  title = {FlowScope: Spotting Money Laundering Based on Graphs},
+  booktitle = aaai,
+  year = {2020},
+  pdf = {papers/aaai2020cr-flowscope.pdf},
+  appendix = {papers/aaai2020-flowscope-appendix.pdf},
+  code = {https://github.com/BGT-M/spartan2-tutorials/blob/master/FlowScope.ipynb},
+  slides = {files/FlowScope-slides-v3-share.pdf}
+}
+
+@article{liu2019ctlis,
+  author = {Shenghua Liu and Huawei Shen and Houdong Zheng and Xueqi Cheng and Xiangwen Liao},
+  title = {CT LIS: Learning Influences and Susceptibilities through Temporal Behaviors},
+  journal = tkdd,
+  volume = {13},
+  number = {6},
+  pages = {57},
+  year = {2019},
+  pdf = {papers/tkdd2019-CTLIS.pdf}
+}
+
+@inproceedings{feng2019catchcore,
+  author = {Wenjie Feng and Shenghua Liu and Huawei Shen and Xueqi Cheng},
+  title = {CatchCore: Catching Hierarchical Dense Subtensor},
+  booktitle = ecmlpkdd,
+  year = {2019},
+  pdf = {papers/pkdd2019-catchcore.pdf},
+  code = {http://github.com/wenchieh/catchcore}
+}
+
+@inproceedings{zhou2019beatgan,
+  author = {Bin Zhou and Shenghua Liu and Bryan Hooi and Xueqi Cheng and Jing Ye},
+  title = {BeatGAN: Anomalous Rhythm Detection using Adversarially Generated Time Series},
+  booktitle = ijcai,
+  year = {2019},
+  pages = {4433--4439},
+  pdf = {papers/ijcai2019-beatgan.pdf},
+  code = {https://github.com/Vniex/BeatGAN}
+}
+
+@inproceedings{hooi2019smf,
+  author = {Bryan Hooi and Kijung Shin and Shenghua Liu and Christos Faloutsos},
+  title = {SMF: Drift-Aware Matrix Factorization with Seasonal Patterns},
+  booktitle = sdm,
+  year = {2019},
+  pages = {621--629},
+  pdf = {papers/sdm2019-smf.pdf}
+}
+
+@inproceedings{yang2019sprofile,
+  author = {Dingcheng Yang and Wenjian Yu and Junhui Deng and Shenghua Liu},
+  title = {Optimal Algorithm for Profiling Dynamic Arrays with Finite Values},
+  booktitle = {International Conference on Extending Database Technology (EDBT)},
+  year = {2019},
+  pdf = {papers/edbt2019-sprofile.pdf}
+}
+
+@article{liu2019contrastmetric,
+  author = {Shenghua Liu and Bryan Hooi and Christos Faloutsos},
+  title = {A Contrast Metric for Fraud Detection in Rich Graphs},
+  journal = tkde,
+  volume = {31},
+  number = {12},
+  pages = {2235--2248},
+  year = {2019},
+  pdf = {papers/tkde2019-constrastsusp_holoscope.pdf}
+}
+
+@inproceedings{feng2019eaglemine,
+  author = {Wenjie Feng and Shenghua Liu and Christos Faloutsos and Bryan Hooi and Huawei Shen and Xueqi Cheng},
+  title = {Beyond outliers and on to micro-clusters: Vision-guided anomaly detection},
+  booktitle = pakdd,
+  year = {2019},
+  pages = {541--554},
+  pdf = {papers/pakdd2019-beyondOutliers.pdf},
+  code = {https://github.com/wenchieh/eaglemine}
+}
+
+@inproceedings{zhang2019eigenpulse,
+  author = {Jiabao Zhang and Shenghua Liu and Wenjian Yu and Wenjie Feng and Xueqi Cheng},
+  title = {EigenPulse: Detecting Surges in Large Streaming Graphs with Row Augmentation},
+  booktitle = pakdd,
+  year = {2019},
+  pages = {501--513},
+  pdf = {papers/pakdd2019-eigenpulse.pdf},
+  slides = {files/EigenPulse-pakdd2019-share.pdf}
+}
+
+@inproceedings{chen2018neucast,
+  author = {Pudi Chen and Shenghua Liu and Chuan Shi and Bryan Hooi and Bai Wang and Xueqi Cheng},
+  title = {NeuCast: Seasonal Neural Forecast of Power Grid Time Series},
+  booktitle = ijcai,
+  year = {2018},
+  pages = {3315--3321},
+  code = {https://github.com/chenpudigege/NeuCast},
+  pdf = {papers/ijcai2018-neucast.pdf}
+}
+
+@inproceedings{feng2018eaglemine,
+  author = {Wenjie Feng and Shenghua Liu and Christos Faloutsos and Bryan Hooi and Huawei Shen and Xueqi Cheng},
+  title = {EagleMine: Vision-Guided Mining in Large Graphs},
+  booktitle = {ACM SIGKDD ODD Workshop},
+  year = {2018},
+  code = {https://github.com/wenchieh/eaglemine},
+  pdf = {papers/KDD-MLG2017_fraud.pdf}
+}
+
+@article{shi2018mfpr,
+  author = {Chuan Shi and Jian Liu and Yiding Zhang and Binbin Hu and Shenghua Liu and Philip S. Yu},
+  title = {MFPR: A Personalized Ranking Recommendation with Multiple Feedback},
+  journal = tsc,
+  volume = {1},
+  number = {2},
+  pages = {7},
+  year = {2018},
+  pdf = {papers/TSC2018-MFPR.pdf}
+}
+
+@inproceedings{liu2017holoscope,
+  author = {Shenghua Liu and Bryan Hooi and Christos Faloutsos},
+  title = {HoloScope: Topology-and-Spike Aware Fraud Detection},
+  booktitle = cikm,
+  year = {2017},
+  pages = {1539--1548},
+  pdf = {papers/cikm2017-holoscope.pdf},
+  slides = {files/Holoscope_frauddetect-cikm2017.pdf},
+  code = {https://github.com/shenghua-liu/HoloScope}
+}
+
+@inproceedings{hooi2017beatlex,
+  author = {Bryan Hooi and Shenghua Liu and Asim Smailagic and Christos Faloutsos},
+  title = {BEATLEX: Summarizing and Forecasting Time Series with Patterns},
+  booktitle = ecmlpkdd,
+  year = {2017},
+  pages = {3--19},
+  pdf = {papers/pkdd2017-beatlex.pdf}
+}
+
+@inproceedings{costa2017eyequal,
+  author = {Pedro Costa and Aurelio Campilho and Bryan Hooi and Asim Smailagic and Kris Kitani and Shenghua Liu and Christos Faloutsos and Adrian Galdran},
+  title = {EyeQual: Accurate, Explainable, Retinal Image Quality Assessment},
+  booktitle = icmla,
+  year = {2017},
+  pdf = {papers/icmla2017_camera_micnn_quality.pdf}
+}
+
+@inproceedings{liu2017fraudmlg,
+  author = {Shenghua Liu and Bryan Hooi and Christos Faloutsos},
+  title = {Fraud Detection using Graph Topology and Temporal Spikes},
+  booktitle = {ACM SIGKDD MLG Workshop},
+  year = {2017},
+  pdf = {papers/KDD-MLG2017_fraud.pdf}
+}
+
+@inproceedings{liu2017influence,
+  author = {Shenghua Liu and Houdong Zheng and Xiangwen Liao and Huawei Shen and Xueqi Cheng},
+  title = {Learning Concise Representations of Users' Influences through Online Behaviors},
+  booktitle = ijcai,
+  year = {2017},
+  pages = {2351--2357},
+  pdf = {papers/ijcai2017-influence.pdf}
+}
+
+@inproceedings{wang2017cascade,
+  author = {Yongqing Wang and Huawei Shen and Shenghua Liu and Jinhua Gao and Xueqi Cheng},
+  title = {Cascade dynamics modeling with attention-based recurrent neural network},
+  booktitle = ijcai,
+  year = {2017},
+  pages = {2985--2991},
+  pdf = {papers/ijcai2017-crossdependence.pdf}
+}
+
+@inproceedings{yu2017singlepass,
+  author = {Wenjian Yu and Yu Gu and Jian Li and Shenghua Liu and Yaohang Li},
+  title = {Single-pass PCA of large high-dimensional data},
+  booktitle = ijcai,
+  year = {2017},
+  pages = {3350--3356},
+  pdf = {papers/ijcai2017-singlepass.pdf},
+  code = {https://github.com/WenjianYu/rSVD-single-pass}
+}
+
+@inproceedings{wang2017markedtemp,
+  author = {Yongqing Wang and Shenghua Liu and Huawei Shen and Jinhua Gao and Xueqi Cheng},
+  title = {Marked Temporal Dynamics Modeling based on Recurrent Neural Network},
+  booktitle = pakdd,
+  year = {2017},
+  pages = {786--798},
+  pdf = {papers/pakdd2017-markedtemp.pdf}
+}
+
+@inproceedings{liu2017recommendation,
+  author = {Jian Liu and Chuan Shi and Binbin Hu and Shenghua Liu and Philip S. Yu},
+  title = {Personalized Ranking Recommendation via Integrating Multiple Feedbacks},
+  booktitle = pakdd,
+  year = {2017},
+  pages = {131--143},
+  pdf = {papers/pakdd2017-recommendation.pdf}
+}
+
+@inproceedings{man2016anchorlink,
+  author = {Tong Man and Huawei Shen and Shenghua Liu and Xiaolong Jin and Xueqi Cheng},
+  title = {Predict Anchor Links across Social Networks via an Embedding Approach},
+  booktitle = ijcai,
+  year = {2016},
+  pages = {1823--1829},
+  pdf = {papers/ijcai2016-anchorlink_pale.pdf}
+}
+
+@article{liu2016caai,
+  author = {Shenghua Liu and Xueqi Cheng},
+  title = {Social Media Sentiment Analysis: opinions, users, and behaviors},
+  journal = {Communication of Chinese Association for Artificial Intelligence (CAAI)},
+  year = {2016},
+  pages = {12--17}
+}
+
+@inproceedings{gao2016retweet,
+  author = {Jinhua Gao and Huawei Shen and Shenghua Liu and Xueqi Cheng},
+  title = {Modeling and predicting retweeting dynamics via a mixture process},
+  booktitle = wwwcompanion,
+  year = {2016},
+  pdf = {papers/www2016p-decentralmixture.pdf}
+}
+
+@article{liu2015tasc,
+  author = {Shenghua Liu and Xueqi Cheng and Fuxin Li and Fangtao Li},
+  title = {TASC: Topic-Adaptive Sentiment Classification on Dynamic Tweets},
+  journal = tkde,
+  volume = {27},
+  number = {6},
+  pages = {1696--1709},
+  year = {2015},
+  pdf = {papers/tkde2015-TASC.pdf}
+}
+
+@inproceedings{wang2015learnuser,
+  author = {Yongqing Wang and Huawei Shen and Shenghua Liu and Xueqi Cheng},
+  title = {Learning user-specific latent influence and susceptibility from information cascades},
+  booktitle = aaai,
+  year = {2015},
+  pages = {477--483},
+  pdf = {papers/aaai2015-learnuser.pdf}
+}
+
+@inproceedings{liu2014ranktweets,
+  author = {Shenghua Liu and Xueqi Cheng and Fangtao Li},
+  title = {Ranking Tweets by Labeled and Collaboratively Selected Pairs with Transitive Closure},
+  booktitle = aaai,
+  year = {2014},
+  pages = {1235--1241},
+  pdf = {papers/aaai2014-ranktweets.pdf}
+}
+
+@inproceedings{li2014suit,
+  author = {Fangtao Li and Sheng Wang and Shenghua Liu and Ming Zhang},
+  title = {SUIT: A Supervised User-Item based Topic model for Sentiment Analysis},
+  booktitle = aaai,
+  year = {2014},
+  pages = {1636--1642},
+  pdf = {papers/aaai2014-suit.pdf}
+}
+
+@inproceedings{huang2014ranktweets,
+  author = {Zhankun Huang and Shenghua Liu and Xueqi Cheng and Pan Du},
+  title = {Ranking Tweets with Local and Global Consistency Using Rich Features},
+  booktitle = pakdd,
+  year = {2014},
+  pages = {298--309},
+  pdf = {papers/pakdd2014-ranktweets.pdf}
+}
+
+@article{xiao2014semantic,
+  author = {Yonglei Xiao and Shenghua Liu and Yue Liu and Xue-qi Cheng and Wenjing Zhao and Ren Yan and Yuping Wang},
+  title = {Semantic Concept Linking and Extension for Social Media Short Texts},
+  journal = {Journal of Chinese Information Processing},
+  volume = {28},
+  number = {4},
+  pages = {21--28},
+  year = {2014}
+}
+
+@inproceedings{liu2013adaptivecotrain,
+  author = {Shenghua Liu and Fuxin Li and Fangtao Li and Xueqi Cheng and Huawei Shen},
+  title = {Adaptive Co-Training SVM for Sentiment Classification on Tweets},
+  booktitle = cikm,
+  year = {2013},
+  pages = {2079--2088},
+  pdf = {papers/cikm2013-adaptivecotrain.pdf}
+}
+
+@inproceedings{liu2013sentimentvisual,
+  author = {Shenghua Liu and Wenjun Zhu and Ning Xu and Fangtao Li and Xueqi Cheng and Yue Liu and Yuanzhuo Wang},
+  title = {Co-training and Visualizing Sentiment Evolvement for Tweet Events},
+  booktitle = wwwcompanion,
+  year = {2013},
+  pages = {105--106},
+  pdf = {papers/www2013p-sentimentvisual.pdf}
+}
+
+@inproceedings{yan2013learntopics,
+  author = {Xiaohui Yan and Jiafeng Guo and Shenghua Liu and Xueqi Cheng},
+  title = {Learning Topics in Short Texts by Non-negative Matrix Factorization on Term Correlation Matrix},
+  booktitle = sdm,
+  year = {2013},
+  pages = {749--757},
+  pdf = {papers/sdm2013s-learntopics.pdf}
+}
+
+@inproceedings{liu2013blending,
+  author = {Shenghua Liu and Yatao Zhu and Jiafeng Guo and Yuanzhuo Wang and Xueqi Cheng and Yue Liu},
+  title = {A Blending Method for Automated Social Tagging},
+  booktitle = {Web Intelligence (WI) and Intelligent Agent Technologies (IAT)},
+  year = {2013},
+  pages = {115--120},
+  pdf = {papers/wi2013-blending.pdf}
+}
+
+@inproceedings{yan2012ncutnmf,
+  author = {Xiaohui Yan and Jiafeng Guo and Shenghua Liu and Xueqi Cheng and Yanfeng Wang},
+  title = {Clustering short text using Ncut-weighted non-negative matrix factorization},
+  booktitle = cikmshort,
+  year = {2012},
+  pages = {2259--2262},
+  pdf = {papers/cikm2012s_ncutNMF.pdf}
+}
+
+@inproceedings{zhu2012wordnet,
+  author = {Ya-Tao Zhu and Shenghua Liu and Xueqi Cheng and Yue Liu and Yuanzhuo Wang and Jin-Gang Liu},
+  title = {Using WordNet-Based Neighborhood for Improving Social Tag Recommendation},
+  booktitle = {Intelligent Computing Theories and Applications},
+  year = {2012},
+  pages = {221--228}
+}
+
+@inproceedings{cao2012topicrelated,
+  author = {Peng Cao and Shenghua Liu and Jinhua Gao and Huawei Shen and Jingyuan Li and Yue Liu and Xueqi Cheng},
+  title = {Finding Topic-Related Tweets Using Conversational Thread},
+  booktitle = {Intelligent Information Processing VI},
+  year = {2012},
+  pages = {258--267}
+}
+
+@inproceedings{zhu2012ictnettrec,
+  author = {Bolong Zhu and Jinghua Gao and Xiao Han and Cunhui Shi and Shenghua Liu and Yue Liu and Xueqi Cheng},
+  title = {ICTNET at Microblog Track TREC 2012},
+  booktitle = {The Twenty-First Text REtrieval Conference (TREC 2012) Proceedings},
+  year = {2012}
+}
+
+@article{mo2012entropy,
+  author = {Yi Mo and Shenghua Liu and Yue Liu and Xueqi Cheng},
+  title = {An Entropy-Based Rule Mining algorithm for Filtering Tweets on Topics},
+  journal = {Journal of Chinese Information Processing},
+  volume = {26},
+  number = {5},
+  pages = {1--6},
+  year = {2012}
+}
+
+@inproceedings{xiao2012semantic,
+  author = {Yonglei Xiao and Shenghua Liu and Yue Liu and Xue-qi Cheng and Wenjing Zhao and Ren Yan and Yuping Wang},
+  title = {Adding Semantic Concepts to Tweets Based on Wikipedia},
+  booktitle = {China Conference on Information Retrieval (CCIR)},
+  year = {2012}
+}
+
+@inproceedings{cao2011ictnettrec,
+  author = {Peng Cao and Jinhua Gao and Yubao Yu and Shenghua Liu and Yue Liu and Xueqi Cheng},
+  title = {ICTNET at Microblog Track TREC 2011},
+  booktitle = {The Twentieth Text REtrieval Conference (TREC 2011) Proceedings},
+  year = {2011}
+}
+
+@inproceedings{mo2011push,
+  author = {Yi Mo and Shenghua Liu and Yue Liu and Xueqi Cheng},
+  title = {Push Tweets on Topics: A Rule-Entropy-Based Classifier},
+  booktitle = {China Conference on Information Retrieval (CCIR)},
+  year = {2011}
+}
+
+@article{liu2010congestion,
+  author = {Shenghua Liu and Guoqiang Chen and Tom Tong Jing and Lei He and Robi Dutta and Xian-Long Hong},
+  title = {Effective Congestion Reduction for IC Package Substrate Routing},
+  journal = todaes,
+  volume = {15},
+  number = {3},
+  year = {2010},
+  pdf = {papers/todaes2010_congestion.pdf}
+}
+
+@inproceedings{liu2010retimming,
+  author = {Shenghua Liu and Yuchun Ma and Xian-Long Hong and Yu Wang},
+  title = {Simultaneous Slack Budgeting and Retiming for Synchronous Circuits Optimization},
+  booktitle = aspdac,
+  year = {2010},
+  pages = {49--54},
+  pdf = {papers/aspdac2010_retimming.pdf},
+  note = { <span style="color:darkred;"><strong>Best paper candidate</strong></span>}
+}
+
+@article{liu2009substraterouting,
+  author = {Shenghua Liu and Guoqiang Chen and Tom Tong Jing and Lei He and Tianpei Zhang and Robi Dutta and Xian-Long Hong},
+  title = {Substrate Topological Routing for High Density Packages},
+  journal = tcad,
+  volume = {28},
+  number = {2},
+  pages = {207--216},
+  year = {2009},
+  pdf={papers/tcad2008_substraterouting.pdf},
+}
+
+@inproceedings{liu2009diffusion,
+  author = {Shenghua Liu and Guoqiang Chen and Tom Tong Jing and Lei He and Robi Dutta and Xian-Long Hong},
+  title = {Diffusion-Driven Congestion Reduction for Substrate Topological Routing},
+  booktitle = {International Symposium on Physical Design (ISPD SIGDA)},
+  year = {2009},
+  pages = {175--180},
+  pdf = {papers/ispd2009_diffusion_slices.pdf}
+}
+
+@inproceedings{liu2008topologicalrouting,
+  author = {Shenghua Liu and Guoqiang Chen and Tom Tong Jing and Lei He and Tianpei Zhang and Robi Dutta and Xian-Long Hong},
+  title = {Topological Routing to Maximize Routability for Package Substrate},
+  booktitle = dac,
+  year = {2008},
+  pages = {566--569},
+  pdf = {papers/dac2008-topologicalrouting.pdf}
+}
+
+@inproceedings{liu2006free,
+  author = {Shenghua Liu and Xianlong Hong and Tong Jing and Jingyu Xu},
+  title = {FREe: A Fast Routability Estimator},
+  booktitle = {IEEE International Conference on Communications, Circuits and Systems (ICCCAS)},
+  year = {2006},
+  pages = {2454--2458},
+  pdf = {papers/icccas2006-free.pdf}
+}
+
+@inproceedings{mao2009congestion,
+  author = {Fubing Mao and Yuchun Ma and Ning Xu and Shenghua Liu and Yu Wang and Xianlong Hong},
+  title = {Congestion-driven floorplanning based on two-stage optimization},
+  booktitle = {IEEE 8th International Conference on ASIC (ASICON)},
+  year = {2009},
+  pages = {1298--1301}
+}
+
+@comment {
 @article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
@@ -61,33 +727,6 @@
   inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
 @Article{einstein1905photoelectriceffect,
   bibtex_show={true},
   abbr={Ann. Phys.},
@@ -103,13 +742,4 @@
   award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
   award_name={Nobel Prize}
 }
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }

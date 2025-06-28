@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - shenghua-liu
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - BGT-M/spartan2-lite
+  - shenghua-liu/HoloScope
+  - BGT-M/spartan2-tutorials
+  - BGT-M/spartan2
