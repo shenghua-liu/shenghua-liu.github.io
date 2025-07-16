@@ -9,11 +9,11 @@ nav_order: 7
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-#  - align: left
-#    image: 
-#    image_circular: true
-#    more_info: >
-#      <strong>Baolong Bi</strong>, PhD student, knowledge editing in LLM. Email: baolong@example.com, <a href="https://baolong.example.com">Homepage</a>
+  #  - align: left
+  #    image:
+  #    image_circular: true
+  #    more_info: >
+  #      <strong>Baolong Bi</strong>, PhD student, knowledge editing in LLM. Email: baolong@example.com, <a href="https://baolong.example.com">Homepage</a>
 
   # Students under supervision
   - align: left
@@ -24,7 +24,7 @@ profiles:
       </div>
 
   - align: left
-    image: 
+    image:
     image_circular: true
     more_info: >
       <div style="text-align:left;"><strong>Yuyao Ge</strong>, Ph.D. candidate<br>
@@ -232,6 +232,4 @@ profiles:
     image_circular: true
     more_info: >
       <div style="text-align:left;"><strong>Wenjing Zhao</strong>, visiting Master from Xidian Univ.</div>
-
 ---
-
