@@ -15,6 +15,16 @@
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       {{ footer_contents }}
+      <!-- Visitor Tracking - Only on homepage -->
+      {% if page.layout == 'about' or page.url == '/' %}
+        <div class="text-center mt-2">
+          <a href="https://clustrmaps.com/site/1atdh" title="Visit tracker" style="text-decoration: none;">
+            <img src="//www.clustrmaps.com/map_v2.png?d=NwcWLG3HxCBlY9UqYBILdJy2C-vA_wIBOUXYSnA_dDA&cl=ffffff" 
+                 alt="Visitor Map" 
+                 style="width: 120px; height: 80px; border-radius: 6px; opacity: 0.9;">
+          </a>
+        </div>
+      {% endif %}
     </div>
   </footer>
 {% else %}
@@ -25,6 +35,16 @@
 
     <div class="container">
       {{ footer_contents }}
+      <!-- Visitor Tracking - Only on homepage -->
+      {% if page.layout == 'about' or page.url == '/' %}
+        <div class="text-center mt-2">
+          <a href="https://clustrmaps.com/site/1atdh" title="Visit tracker" style="text-decoration: none;">
+            <img src="//www.clustrmaps.com/map_v2.png?d=NwcWLG3HxCBlY9UqYBILdJy2C-vA_wIBOUXYSnA_dDA&cl=ffffff" 
+                 alt="Visitor Map" 
+                 style="width: 120px; height: 80px; border-radius: 6px; opacity: 0.9;">
+          </a>
+        </div>
+      {% endif %}
     </div>
   </footer>
 {% endif %}
