@@ -15,7 +15,7 @@ profile:
     <p>No.6 Kexueyuan South Road, Haidian District</p>
     <p>Beijing, China 100190</p>
     <p><a href="/assets/files/shortbio.txt">[short bio]</a>
-    <a href="https://bgt-m.github.io">[group page]</a></p> 
+    <a href="https://stair.team/">[group page]</a></p> 
     <p>email: liushenghua at ict.ac.cn</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
