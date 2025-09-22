@@ -27,39 +27,42 @@ profiles:
     image:
     image_circular: true
     more_info: >
+      <div style="text-align:left;"><strong>Jiayu Yao</strong>, Master candidate<br>
+      LLMs and graphs, 2024 (senior), 2025.9- <br>
+      </div>
+  - align: left
+    image:
+    image_circular: true
+    more_info: >
       <div style="text-align:left;"><strong>Yuyao Ge</strong>, Ph.D. candidate<br>
-      LLMs and graphs, 2023 (senior)<br>
-      Email: yuyaoge@example.com</div>
+      LLMs and graphs, 2023 (senior), 2024.9- <br>
+      </div>
   - align: left
     image_circular: true
     more_info: >
       <div style="text-align:left;"><strong>Xuanshan Zhou</strong>, Master candidate<br>
-      Scalable graph summarization, 2023 (senior)<br>
-      Email: xuanshanzhou@example.com</div>
+      Scalable graph summarization, 2023 (senior), 2024.9- <br>
+      </div>
   - align: left
     image_circular: true
     more_info: >
-      <div style="text-align:left;"><strong>Baolong Bi</strong>, Ph.D. student<br>
+      <div style="text-align:left;"><strong>Baolong Bi</strong>, Ph.D. candidate<br>
       Foundation model and graphs, 2022 (senior), 2023.9-<br>
-      Email: baolongbi@example.com</div>
+      </div>
   - align: left
     image_circular: true
     more_info: >
-      <div style="text-align:left;"><strong>Tianjie Hou</strong>, Master student<br>
+      <div style="text-align:left;"><strong>Tianjie Hou</strong>, Master candidate<br>
       Graph anomaly detection, 2022 (senior), 2023.9-<br>
-      Email: tianjiehou@example.com</div>
+      </div>
   - align: left
     image_circular: true
     more_info: >
-      <div style="text-align:left;"><strong>Li Wang</strong>, Master student<br>
-      Temporal graph mining, 2021 (senior), 2022.9-<br>
-      Email: liwang@example.com</div>
-  - align: left
-    image_circular: true
-    more_info: >
-      <div style="text-align:left;"><strong>Lingrui Mei</strong>, Ph.D. student<br>
-      Reliable large language models 2024.10- ; co-advised Master student (2022) 2023.9-2024.10<br>
-      Email: lingruimei@example.com</div>
+      <div style="text-align:left;"><strong>Lingrui Mei</strong>, Ph.D. candidate<br>
+      trust-worthy large language models,<br> 
+      co-advised Master student (2022) 2023.9-2024.10,<br>
+      Ph.D. candidate, 2025.9-<br>
+      </div>
 
   # Alumni
   - align: left
@@ -67,6 +70,13 @@ profiles:
     more_info: >
       <div style="text-align:center;">
       <strong>Alumni</strong>
+      </div>
+  - align: left
+    image_circular: true
+    more_info: >
+      <div style="text-align:left;"><strong>Li Wang</strong>, Master<br>
+      Multi-layer network mining, 2021 (senior), 2022.9-2025.7<br>
+      Now at ByteDance, Beijing.
       </div>
   - align: left
     image_circular: true
