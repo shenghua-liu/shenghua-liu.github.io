@@ -3,8 +3,10 @@ Technology, Chinese Academy of Sciences. He received his Ph.D. degree from the
 Computer Science and Technology Department, Tsinghua University. He once
 visited at the University of California, Los Angeles, hosted by Prof. Lei He, 
 and as a scholar at Carnegie Mellon University, hosted by Prof. Christos Faloutsos. 
-His current research focuses on big graph mining, large language models (LLMs), and scalable algorithm design, 
-with recent interests in applying LLMs to graph analysis, and trustworthy foundation models. 
+His current research focuses on two closely related directions: AI for trustworthy foundation models
+and agents in the era of RSI, with an emphasis on reliability, faithfulness, and capability for
+scientific research; and graph intelligence and network mining, including agent reasoning over
+complex relational structures, graph-structured agent memory, and anomaly detection in real-world networks.
 Two of about 60 high-quality publications have been recognized as
 ``best paper'' award and candidate respectively.
 

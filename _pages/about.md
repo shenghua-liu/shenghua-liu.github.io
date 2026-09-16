@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Professor, Trustworthy LLM and Big Graph Mining
-
+subtitle: Professor, AI for Trustworthy Foundation Models and Agents
 profile:
   align: right
   image: sliu.png
@@ -32,17 +31,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Professor at [Institute of Computing Technology, Chinese Academy of Sciences](https://www.ict.ac.cn/). My research interests include **trustworthy foundation model and big graph mining**
-with applications in scientific deep research, anomaly detection, and various real-world networked systems ranging from academic collaborations, supply chain, financial transactions and biological networks.
-The arising of LLMs drives most of the interests to trustworthy foundation models, and graph LLMs which scale LLM the ability to understand graphs, to think and model with graphs. Believing that with graph LLMs, real-world problems with complex correlations and connections can be well and trustworthily solved.
+I am a Professor at [Institute of Computing Technology, Chinese Academy of Sciences](https://www.ict.ac.cn/). My research focuses on two closely related directions:
+
+- **AI for trustworthy foundation models and agents in the era of RSI**, with an emphasis on building reliable, faithful, and capable foundation models and agents for scientific research.
+- **Graph intelligence and network mining**, including agent reasoning over complex relational structures, and graph-structured organization of agent memory, as well as anomaly detection in real-world networks.
 
 The featured works are published on IEEE TKDE, ACM TKDD, and proceedings of top-tier conferences such as AAAI, ICLR, ACL, CIKM, WSDM, ECML-PKDD, etc. Some of the publications are recognized as ASP-DAC 2010 **best paper candidate**, ECML-PKDD 2020 **best student DM paper award**.
 
 My educational and visiting experience:
 
 - Ph.D. degree from [Computer Science & Technology Department](http://www.tsinghua.edu.cn/publish/csen), [Tsinghua University](http://www.tsinghua.edu.cn) in 2010, supervised by Prof. **Xianlong Hong**, an honorable professor in electronic design automation (EDA).
-
 - Visiting Ph.D. student at [electronic engineering department](http://www.ee.ucla.edu), [university of california, los angeles (ucla)](http://www.ucla.edu),
-  which was hosted and supervised by Prof. [**Lei He**](http://eda.ee.ucla.edu/people/faculty.html), 2006-2007, and in consequence I am listed as one of the [Alumni in Academia of Electrical & Computer Engineering, UCLA](http://www.ee.ucla.edu/alumni-in-acedemia/).
-
-- Research Scholar at [Computer Science Department](http://www.cs.cmu.edu), [Carnegie Mellon University (CMU)](http://www.cmu.edu), which was hosted and supervised by Prof. [**Christos Faloutsos**](http://www.cs.cmu.edu/~christos), 2016-2017.
+which was hosted and supervised by Prof. **[Lei He](http://eda.ee.ucla.edu/people/faculty.html)**, 2006-2007, and in consequence I am listed as one of the [Alumni in Academia of Electrical & Computer Engineering, UCLA](http://www.ee.ucla.edu/alumni-in-acedemia/).
+- Research Scholar at [Computer Science Department](http://www.cs.cmu.edu), [Carnegie Mellon University (CMU)](http://www.cmu.edu), which was hosted and supervised by Prof. **[Christos Faloutsos](http://www.cs.cmu.edu/~christos)**, 2016-2017.
